@@ -1,4 +1,4 @@
-# Dio_desafio_GitHub_1o_repo
-Desafio de projeto Git  /  GitHub
+# Desafio de projeto Git/GitHUb
+repositório criado para o desafio de projeto
 ## links uteis
 [Sintaxe Básica MarkDown](https://www.markdownguide.org/basic-syntax/)

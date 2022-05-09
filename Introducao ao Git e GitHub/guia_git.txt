@@ -1,0 +1,41 @@
+Comandos Git / terminal
+Comandos Git
+git init -> inicia o git criando um repositório
+git add [objetos]
+git commit
+git config --global user.email"73.scar@gmail.com"
+git config --global user.name Luck
+git config --list --> listavde configurações do git
+git remote -v --> lista os caminhos dos repositórios remotos cadastrados no GitHub
+git push origin master --> carrega o repo local no GitHub
+
+git add * --> move para staged todo o conteúdo da pasta
+git commit -m "mensagem"
+git status mostra os status dos arquivos (untracked, modified...)
+
+
+ls -a -> mostra arquivos e pastas ocultas (terminal)
+ctrl+L -> limpa a tela (terminal)
+mkdir --> cria diretório
+mv [ arquivo ] [ local ] --> move arquivo
+echo > "..." --> printa msg no terminal ou cria arquivo
+
+Ciclo de vida (Git)
+Untracked --> git add (mover arquivo direto para Staged)
+Tracked
+    Unmodified --> arquivo que ainda nao foi modificado comparando sha1, se alterar com git add vai direto para Staged
+    Modified --> roda git add retorna para unmodified
+    Staged --> pronto para ser carregado no commit e retorna o arquivo para modified como snapshot.
+
+Repositório
+Servidor --> repositório remoto
+
+Ambiente de desenvolvimento
+Working directory
+Staging area
+
+Rodar commit
+Local repository --> arquivo pronto para o repositório remoto.
+
+mark down --> inserindo imagem
+<center><img src = "endereço" width"500">
